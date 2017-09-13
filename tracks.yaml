@@ -45,5 +45,5 @@ tracks:
     release_tag: 8c3c62501bf8521dcf53705b497ea982b874c25d
     ros_distro: r2b3
     vcs_type: git
-    vcs_uri: https://github.com/ros2/console_bridge
+    vcs_uri: https://github.com/ros/console_bridge
     version: 0.3.2
