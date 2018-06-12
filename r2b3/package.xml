@@ -4,7 +4,7 @@
   <name>console_bridge</name>
   <version>:{version}</version>
   <description>ROS-independent package for logging that seamlessly pipes into rosconsole/rosout for ROS-dependent packages.</description>
-  <maintainer email="steven@oopenrobotics.org">Steven! Ragnarök</maintainer>
+  <maintainer email="steven@openrobotics.org">Steven! Ragnarök</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>cmake</buildtool_depend>
