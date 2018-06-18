@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.6)
 project(console_bridge)
 
 set (CONSOLE_BRIDGE_MAJOR_VERSION 0)
-set (CONSOLE_BRIDGE_MINOR_VERSION 3)
+set (CONSOLE_BRIDGE_MINOR_VERSION 4)
 set (CONSOLE_BRIDGE_PATCH_VERSION 0)
 
 set (CONSOLE_BRIDGE_VERSION ${CONSOLE_BRIDGE_MAJOR_VERSION}.${CONSOLE_BRIDGE_MINOR_VERSION}.${CONSOLE_BRIDGE_PATCH_VERSION})
@@ -13,6 +13,10 @@ include(GenerateExportHeader)
 
 if (NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE Release)
+endif()
+
+if(POLICY CMP0042)
+  cmake_policy(SET CMP0042 NEW)
 endif()
 
 # If compiler support symbol visibility, enable it.
